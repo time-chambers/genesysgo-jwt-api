@@ -1,6 +1,5 @@
 import cors from 'cors'
 import express from 'express'
-import axios from 'axios'
 import { createClient } from 'redis'
 import { URL } from 'url'
 

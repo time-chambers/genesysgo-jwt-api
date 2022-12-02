@@ -8,10 +8,11 @@ Generate and store a JWT to share with your consumers apps.
   So far the following variables exist:
 
 ```
-REDISCLOUD_URL: redis connection url
-REDIS_MAX_CONN: maximum number of concurrent connections used by the redis pool
-RPC_ENDPOINT_URL: your genesysgo node rpc url
-REFRESH_INTERVAL: time in seconds to wait between event JWT refresh
+REDIS_URL: redis connection url
+API_URL_BASE: genesysgo portal
+WALLET_KEY: your private key
+RPC_ENDPOINT: your rpc endpoint
+RPC_ID: your rpc id
 ```
 
 ## Questions / Suggestions?
